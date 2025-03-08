@@ -15,7 +15,7 @@ function Home() {
             >
                 <section className='flex flex-col items-center justify-center text-center'>
                     <div className='space-y-5'>
-                        <span className='text-3xl font-semibold text-gray-700'>Welcome In My Feed</span>
+                        <h2 className='text-3xl font-semibold text-gray-700 mt-20'>Welcome In My Feed</h2>
                         <div className='text-4xl font-extrabold text-gray-900 mt-8'>
                             <h1>Hello, I'm a</h1>
                             <ReactTyped
