@@ -17,7 +17,7 @@ function Navbar() {
     ];
 
     return (
-        <nav className="w-full fixed top-0 left-0 bg-white shadow-md z-50">
+        <nav className="w-full fixed top-0 left-0 z-50">
             <div className="max-w-screen-2xl mx-auto px-6 py-4 flex justify-between items-center">
                 {/* Logo and Name */}
                 <div className="flex items-center space-x-4">
