@@ -29,7 +29,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="pt-12 scroll-mt-20 px-4 sm:px-6 lg:px-8">
+    <section id="Project" className="pt-12 scroll-mt-20 px-4 sm:px-6 lg:px-8">
       {/* Centered the heading */}
       <h2 className="text-2xl font-semibold mb-6 text-center">Projects</h2>
 

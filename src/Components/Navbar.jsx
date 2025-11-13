@@ -10,7 +10,7 @@ function Navbar() {
     const navItems = [
         { id: 1, text: "Home" },
         { id: 2, text: "About" },
-        { id: 6, text: "projects" },
+        { id: 6, text: "Project" },
         { id: 3, text: "PortFolio" },
         { id: 4, text: "Experiance" },
         { id: 5, text: "Contact" },
