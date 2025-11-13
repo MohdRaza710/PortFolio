@@ -3,7 +3,7 @@ import React from 'react';
 export default function Projects() {
   const projects = [
     {
-      title: 'MathTrade Website',
+      title: 'MathTrade',
       description:
         'MathTrade is a dynamic web application built with React.js and Tailwind CSS, designed to make practicing math concepts engaging and user‑friendly. With a responsive layout that adapts to both desktop and mobile screens, MathTrade offers a clean and intuitive interface that encourages consistent learning.',
       tech: ['React', 'Tailwind', 'JavaScript'],
