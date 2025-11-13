@@ -1,6 +1,6 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
+import pic from "/MyImage.png";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 
@@ -26,16 +26,13 @@ function Home() {
                                 loop={true}
                             />
                         </div>
-                        <br />
-                        <p className="text-lg text-gray-600 max-w-lg mx-auto">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet optio vel magni quidem eveniet nihil, quis pariatur officia ea ab magnam dolor illo tenetur molestias praesentium dolorum aliquam est rem?
-                        </p>
+                        <p className="text-xl text-slate-600 dark:text-slate-300 mb-6">Frontend Developer — React &amp; Tailwind specialist building fast, accessible web apps.</p>
                         {/* Social Media Icons */}
                         <div>
                             <h1 className='text-xl text-gray-800 mt-6'>Available on</h1>
                             <ul className="flex justify-center space-x-5 mt-4">
                                 <li>
-                                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.facebook.com/profile.php?id=61575247876033" target="_blank" rel="noopener noreferrer">
                                         <FaSquareFacebook className="text-4xl text-blue-600 hover:text-blue-800 cursor-pointer transition-colors" />
                                     </a>
                                 </li>

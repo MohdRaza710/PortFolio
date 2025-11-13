@@ -1,7 +1,8 @@
 import React from 'react';
-import javascript from "../../public/javascript.png";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
+import javascript from "/javascript.png";
+import reactjs from "/reactjs.png";
+import html from "/html.png";
+import css from "/css.jpg";
 
 function Experience() {
     const experienceItems = [
@@ -19,6 +20,11 @@ function Experience() {
             id: 3,
             logo: css,
             name: "CSS"
+        },
+        {
+            id: 4,
+            logo: reactjs,
+            name: 'ReactJs'
         }
     ];
 
@@ -31,7 +37,7 @@ function Experience() {
             </div>
 
             {/* Experience Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                 {experienceItems.map(({ id, logo, name }) => (
                     <div key={id} className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center space-y-4 transition-transform transform hover:scale-105">
                         <img src={logo} alt={name} className="w-20 h-20 object-contain" />

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pic from "../../public/photo.avif";
+import pic from "/pf.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
@@ -10,6 +10,7 @@ function Navbar() {
     const navItems = [
         { id: 1, text: "Home" },
         { id: 2, text: "About" },
+        { id: 6, text: "Project" },
         { id: 3, text: "PortFolio" },
         { id: 4, text: "Experiance" },
         { id: 5, text: "Contact" },

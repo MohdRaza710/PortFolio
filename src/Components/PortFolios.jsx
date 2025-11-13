@@ -1,10 +1,10 @@
 import React from 'react'
-import java from "../../public/java.png";
-import python from "../../public/python.webp";
-import mongoDB from "../../public/mongodb.jpg";
-import express from "../../public/express.png";
-import reactjs from "../../public/reactjs.png";
-import nodejs from "../../public/node.png";
+import javascript from "/javascript.png";
+import python from "/python.webp";
+import mongoDB from "/mongodb.jpg";
+import express from "/express.png";
+import reactjs from "/reactjs.png";
+import nodejs from "/node.png";
 
 function PortFolios() {
     const cardItem = [
@@ -27,16 +27,11 @@ function PortFolios() {
           id: 4,
           logo: nodejs,
           name: "NodeJS",
-        },
+        },       
         {
           id: 5,
-          logo: python,
-          name: "Python",
-        },
-        {
-          id: 6,
-          logo: java,
-          name: "Java",
+          logo: javascript,
+          name: "JavaScript",
         },
       ];
       
@@ -52,9 +47,6 @@ function PortFolios() {
                   <div key={id} className="bg-white shadow-lg rounded-xl p-5 flex flex-col items-center space-y-4 transition-transform transform hover:scale-105">
                     <img src={logo} alt={name} className="w-20 h-20 object-contain" />
                     <h2 className="text-xl font-semibold text-gray-800">{name}</h2>
-                    <p className="text-gray-600 text-center">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    </p>
                   </div>
                 ))}
             </div>
