@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebook, FaTwitter, FaLinkedinIn } from "react-icons/fa6";
 import { Link } from 'react-scroll';
 
 function Footer() {
