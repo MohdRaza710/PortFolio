@@ -39,9 +39,6 @@ function Home() {
                             </ul>
                         </div>
                     </div>
-                    <div className="mt-10">
-                        <img src={pic} alt="Profile" className="w-full max-w-md h-auto rounded-full shadow-lg mx-auto" />
-                    </div>
                 </section>
             </div>
             <hr className="my-10 border-gray-300" />

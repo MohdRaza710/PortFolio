@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "./Pages/Navbar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import PortFolio from "./Pages/PortFolios";
 import Experiance from "./Pages/Experiance";
 import Footer from "./Pages/Footer";
 import Contact from "./Pages/Contact";
@@ -18,7 +17,6 @@ function App() {
         <Home />
         <About />
         <Projects />
-        <PortFolio />
         <Experiance />
         <Contact />
         <Footer />

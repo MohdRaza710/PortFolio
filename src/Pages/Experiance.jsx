@@ -3,6 +3,8 @@ import javascript from "/javascript.png";
 import reactjs from "/reactjs.png";
 import html from "/html.png";
 import css from "/css.jpg";
+import mongodb from "/mongodb.jpg";
+import node from "/node.png";
 
 function Experience() {
     const experienceItems = [
@@ -25,6 +27,16 @@ function Experience() {
             id: 4,
             logo: reactjs,
             name: 'ReactJs'
+        },
+        {
+            id: 5,
+            logo: mongodb,
+            name: 'MongoDB'
+        },
+        {
+            id: 6,
+            logo: node,
+            name: 'NodeJs'
         }
     ];
 
