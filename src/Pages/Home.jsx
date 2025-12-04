@@ -1,7 +1,5 @@
 import React from "react";
 
-import pic from "/MyImage.png";
-
 import { FaSquareFacebook } from "react-icons/fa6";
 
 import { ReactTyped } from "react-typed";
