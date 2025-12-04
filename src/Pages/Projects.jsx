@@ -23,13 +23,13 @@ export default function Projects() {
       tech: ['MERN Stack'],
       link: 'https://www.aammg.com',
     },
-    {
-      title: 'Employee Salary Management System',
-      description:
-        "An Employee Salary Management System is a web-based application designed to streamline and automate the process of managing employee salaries within an organization. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this system provides a user-friendly interface for HR personnel and administrators to efficiently handle salary calculations, deductions, bonuses, and generate payslips.",
-      tech: ['MERN Stack'],
-      link: '',
-    }
+    // {
+    //   title: 'Employee Salary Management System',
+    //   description:
+    //     "An Employee Salary Management System is a web-based application designed to streamline and automate the process of managing employee salaries within an organization. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this system provides a user-friendly interface for HR personnel and administrators to efficiently handle salary calculations, deductions, bonuses, and generate payslips.",
+    //   tech: ['MERN Stack'],
+    //   link: '',
+    // }
   ];
 
   return (
